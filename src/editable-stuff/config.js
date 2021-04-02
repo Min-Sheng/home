@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Min-Sheng",
   middleName: "",
   lastName: "Wu",
-  message: " A Data scientist who is passionate about changing the world with technology. ",
+  message: " A data scientist who is passionate about changing the world with technology. ",
   icons: [
     {
       image: "fa-github",
