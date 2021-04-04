@@ -12,6 +12,8 @@ const ExperienceCard = ({data}) => {
                 <p className="lead">
                     {data.role}
                     <br/>
+                    {data.companyname}
+                    <br/>
                     {data.date}
                 </p>
                 

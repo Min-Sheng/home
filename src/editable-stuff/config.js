@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Min-Sheng",
   middleName: "",
   lastName: "Wu",
-  message: " A data scientist who is passionate about changing the world with technology. ",
+  message: " Data Scientist X Biomedical Engineer X Photographer ",
   icons: [
     {
       image: "fa-github",
@@ -67,8 +67,8 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "Min-Sheng", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  reposLength: 0,
+  specificRepos: ["CA_FSIS_Cell", "cfisDemo"],
 };
 
 // Leadership SECTION
@@ -101,23 +101,23 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Deep learning", value: 90 },
+    { name: "Computer Vision", value: 90 },
+    { name: "Medical Image Analysis", value: 95 },
+    { name: "C/C++", value: 70 },
+    { name: "JavaScript (React)", value: 65 },
+    { name: "HTML/CSS", value: 60 },
+    { name: "Linux", value: 55 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
+    { name: "Goal-Oriented", value: 95 },
     { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
+    { name: "Positivity", value: 80 },
     { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
+    { name: "Problem Solving", value: 90 },
     { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Organization", value: 75 },
+    { name: "Creativity", value: 85 },
   ],
 };
 
@@ -131,18 +131,20 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Data Scientist',
+      companyname: 'aetherAI',
+      companylogo: "https://static.wixstatic.com/media/e2eac7_1fe4dd082bb94806a7e399f5b81bd10c~mv2.png/v1/fill/w_318,h_80,al_c,q_85,usm_0.66_1.00_0.01/aetherai_logo(blue).webp",
+      date: 'Oct 2020 – Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Intern',
+      companyname: 'aetherAI',
+      companylogo: "https://static.wixstatic.com/media/e2eac7_1fe4dd082bb94806a7e399f5b81bd10c~mv2.png/v1/fill/w_318,h_80,al_c,q_85,usm_0.66_1.00_0.01/aetherai_logo(blue).webp",
+      date: 'May 2018 – Aug 2018',
     },
   ]
 }
