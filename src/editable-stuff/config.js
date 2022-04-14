@@ -54,7 +54,7 @@ const about = {
   imageLink: "https://min-sheng.github.io/blog/assets/images/avatar5.jpg",
   imageSize: 375,
   message:
-    "My name is Min-Sheng Wu. I’m a data scientist working at aetherAI. I graduated from National Taiwan University with a degree in Computer Engineering. My interest is in the research about the technology of ML, DL, AI in the applications of Computer Vision (CV).",
+    "My name is Min-Sheng Wu. I’m a data scientist working at aetherAI. I graduated from National Taiwan University with a degree in Computer Science. My interest is in the research about the technology of ML, DL, AI in the applications of Computer Vision (CV).",
   resume: require("../editable-stuff/resume_2022-04-13.pdf"),
 };
 
